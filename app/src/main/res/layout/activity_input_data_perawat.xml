@@ -12,6 +12,7 @@
         android:id="@+id/edit_text_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="NIP"
         android:drawableLeft="@drawable/ic_number"
         android:layout_alignLeft="@+id/text_view_1"
         android:layout_below="@+id/text_view_1"
@@ -45,9 +46,10 @@
         android:id="@+id/edit_text_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/ic_person"
+        android:drawableLeft="@drawable/ic_nama"
         android:layout_alignLeft="@+id/text_view_2"
         android:layout_below="@id/text_view_2"
+        android:hint="Nama"
         android:inputType="text"
         android:maxLength="20"/>
 
@@ -71,7 +73,6 @@
         android:layout_alignLeft="@+id/text_view_3"
         android:layout_below="@+id/text_view_3"
         android:hint="1993-12-08"
-        android:textColorHint="@color/black"
         android:inputType="date"/>
 
     <TextView
@@ -95,8 +96,7 @@
         android:layout_below="@+id/text_view_4"
         android:inputType="text"
         android:maxLength="1"
-        android:hint="L atau P"
-        android:textColorHint="@color/black"/>
+        android:hint="L atau P" />
 
     <TextView
         android:id="@+id/text_view_5"
@@ -117,6 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/text_view_5"
         android:layout_below="@+id/text_view_5"
+        android:hint="Alamat"
         android:maxLength="100"
         android:inputType="text" />
 
