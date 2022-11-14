@@ -24,8 +24,13 @@ public class InformasiActivity extends AppCompatActivity {
     RecyclerView recyclerView;
 
     String title[], description[];
-    int images[] = {R.drawable.ppni_1, R.drawable.ppni_2, R.drawable.ppni_3};
-
+    int images[] = {
+            R.drawable.ppni_1,
+            R.drawable.ppni_2,
+            R.drawable.ppni_3,
+            R.drawable.ppni_4,
+            R.drawable.ppni_5,
+            R.drawable.ppni_6};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +47,6 @@ public class InformasiActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
-
 
 
 }

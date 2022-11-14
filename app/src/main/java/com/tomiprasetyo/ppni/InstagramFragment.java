@@ -28,7 +28,7 @@ public class InstagramFragment extends Fragment {
         binding.instagramAzis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openUrl("https://www.instagram.com/abdlazs/");
+                openUrl("https://www.instagram.com/_abdlazs/");
             }
         });
 
@@ -42,7 +42,7 @@ public class InstagramFragment extends Fragment {
         binding.instagramQibar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openUrl("https://www.instagram.com/qibar");
+                openUrl("https://www.instagram.com/rabbani.qibar");
             }
         });
 

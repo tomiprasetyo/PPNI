@@ -30,7 +30,7 @@ public class EmailFragment extends Fragment {
                 Intent email = new Intent(Intent.ACTION_SEND);
                 email.setData(Uri.parse("mailto:"));
                 email.setType("text/plain");
-                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"abdlazs@gmail.com"});
+                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"abdlazs2196@gmail.com"});
                 startActivity(Intent.createChooser(email, "Send mail"));
             }
         });
@@ -52,7 +52,7 @@ public class EmailFragment extends Fragment {
                 Intent email = new Intent(Intent.ACTION_SEND);
                 email.setData(Uri.parse("mailto:"));
                 email.setType("text/plain");
-                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"rizkiakbar@gmail.com"});
+                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"rizkiakbar2302@gmail.com"});
                 startActivity(Intent.createChooser(email, "Send mail"));
             }
         });

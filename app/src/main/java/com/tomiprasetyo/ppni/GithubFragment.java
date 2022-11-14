@@ -27,7 +27,7 @@ public class GithubFragment extends Fragment {
         binding.githubAzis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openUrl("https://github.com/abdlazs");
+                openUrl("https://github.com/abdlazs59");
             }
         });
 
@@ -41,7 +41,7 @@ public class GithubFragment extends Fragment {
         binding.githubQibar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openUrl("https://github.com/qibar");
+                openUrl("https://github.com/rabbaniqibar2302");
             }
         });
 
