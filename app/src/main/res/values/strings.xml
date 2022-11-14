@@ -2,21 +2,23 @@
     <string name="app_name">PPNI</string>
     <string name="informasi">Aplikasi PPNI merupakan aplikasi yang digunakan untuk pendataan perawat di RSCM. Admin nantinya bisa menambahkan, update, dan hapus data siswa</string>
     <string-array name="informasi_kegiatan">
-        <item>Judul 1</item>
-        <item>Judul 2</item>
-        <item>Judul 3</item>
-        <item>Judul 4</item>
-        <item>Judul 5</item>
-        <item>Judul 6</item>
+        <item>DPK PPNI RSCM BEKERJA SAMA DENGAN INWOCNA DKI JAKARTA MENGADAKAN PERTAMUAN ILMIAH TAHUNAN </item>
+        <item>DPK PPNI BAKTI SOSIAL RPTRA KENARI</item>
+        <item>DPK PPNI RSCM BEKERJASAMA DENGAN EPICET MENYELENGARAKAN SEMINAR &amp; WORKSHOP</item>
+        <item>DPK PPNI RSCM BEKERJA SAMA DENGAN 991 DINKES BERHASIL MENYELENGARAKAN PELATIHAN BTCLS</item>
+        <item>DPK PPNI RSCM MEMERIAHKAN HUT PPNI  KE 47</item>
+        <item>MUSYAWARAH DPK PPNI RSCM MASA PESRIODE 2018–2022</item>
     </string-array>
 
     <string-array name="description">
-        <item>Deskripsi 1</item>
-        <item>Deskripsi 2</item>
-        <item>Deskripsi 3</item>
-        <item>Deskripsi 4</item>
-        <item>Deskripsi 5</item>
-        <item>Deskripsi 6</item>
+        <item>DPK PPNOI RSCM Sukses melaksanakan PIT tahunan dengan INWOCNA DKI jakarta, dengan peserta perawat dari berbagai wilayah di Indonesia, PIT berlangsung selama 2 hari di Hotel Yellow jakarta Barat</item>
+        <item>DPK PPNI RSCM bekerjasama dengan Kelurahan Kenari Berhasil melaksanakan Bakti Sosial yang di hadiri oleh warga sekitar RPTRA Kenari , adapun kegiatan baktisosial berikut adalah memeriksakan kesehatan gula darah, tensi, dan colesterol, dan di akhiri dengan sosialisasi tengtang Bantuan Hidup Dasar.</item>
+        <item>DPK PPNI RSCM Berhasil menyelengarakan Seminar dan Workshop pengenalan alat Abocaht , peserta yang hadir offline mau pun online berjumalah kurang lebih 500 orang yang terdiri dari perawat RSCM dari setiap Unit Kerja.</item>
+        <item>DPK PPNI RSCM bekerjasama dengan 991 Diknkes menyelengarakan Pelatihan BTCLS yang di ikuti oleh perawat dari berbagai rumah sakit untuk meng update skill yang di miliki perawat.</item>
+        <item>DPK PPNI RSCM memperingati hari ulang tahun PPNI yang Ke-47 dengan menyelengarakan bakti Sosial Donor Darah di Rumah Sakit RSCM dengan Target Peserta Pegawai, Untuk Memenuhi kebutuhan Darah di PMI DKI Jakarta.</item>
+        <item>MUSYAWARAH DPK PPNI RSCM MASA PESRIODE 2018-2022
+DPK PPNI RSCM Berhasil melaksanakan muysawarah yang di hadiri oleh Perwakilah perawat di setiap unit instansi kerja yang ada di RSCM dan di Hadiri Oleh Ketua DPD dan DPW PPNI DKI Jakarta ,
+musyawarah bertujuan untuk memilih calon ketua dan penyusunan Stuktur Organisai yang akan di jalan kan selama masa jabatan Periode 2022-2027</item>
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
