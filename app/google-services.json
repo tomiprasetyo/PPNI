@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "102053780377",
+    "project_id": "ppni-cc059",
+    "storage_bucket": "ppni-cc059.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102053780377:android:e384dab0629ede80de1108",
+        "android_client_info": {
+          "package_name": "com.tomiprasetyo.ppni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102053780377-dlp5lviclrkk5f3k5c0s9nlcnttt42up.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tomiprasetyo.ppni",
+            "certificate_hash": "df6b54982129e82e87275622af28fd6459598c05"
+          }
+        },
+        {
+          "client_id": "102053780377-ik3k8rove69302246r631imcpo5hlqc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqBA80usiKwF_8paZtuWqHJs_fPjrwjHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102053780377-ik3k8rove69302246r631imcpo5hlqc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

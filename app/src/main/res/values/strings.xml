@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PPNI</string>
+    <string name="informasi">Aplikasi PPNI merupakan aplikasi yang digunakan untuk pendataan perawat di RSCM. Admin nantinya bisa menambahkan, update, dan hapus data siswa</string>
+    <string-array name="informasi_kegiatan">
+        <item>Judul 1</item>
+        <item>Judul 2</item>
+        <item>Judul 3</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Deskripsi 1</item>
+        <item>Deskripsi 2</item>
+        <item>Deskripsi 3</item>
+    </string-array>
+</resources>

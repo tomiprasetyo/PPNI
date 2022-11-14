@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    tools:context=".InputDataPerawatActivity">
+
+    <EditText
+        android:id="@+id/edit_text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_number"
+        android:layout_alignLeft="@+id/text_view_1"
+        android:layout_below="@+id/text_view_1"
+        android:inputType="number"
+        android:maxLength="10" />
+
+    <TextView
+        android:id="@+id/text_view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Nomor Induk Perawat"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/text_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_text_1"
+        android:layout_below="@id/edit_text_1"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="Nama"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:id="@+id/edit_text_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_person"
+        android:layout_alignLeft="@+id/text_view_2"
+        android:layout_below="@id/text_view_2"
+        android:inputType="text"
+        android:maxLength="20"/>
+
+    <TextView
+        android:id="@+id/text_view_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_text_2"
+        android:layout_below="@id/edit_text_2"
+        android:layout_marginTop="10dp"
+        android:text="Tanggal Lahir"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_calendar"
+        android:id="@+id/edit_text_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_view_3"
+        android:layout_below="@+id/text_view_3"
+        android:hint="1993-12-08"
+        android:textColorHint="@color/black"
+        android:inputType="date"/>
+
+    <TextView
+        android:id="@+id/text_view_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/edit_text_3"
+        android:layout_below="@id/edit_text_3"
+        android:layout_marginTop="10dp"
+        android:text="Jenis Kelamin"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:id="@+id/edit_text_4"
+        android:drawableLeft="@drawable/ic_person_outline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_view_4"
+        android:layout_below="@+id/text_view_4"
+        android:inputType="text"
+        android:maxLength="1"
+        android:hint="L atau P"
+        android:textColorHint="@color/black"/>
+
+    <TextView
+        android:id="@+id/text_view_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_text_4"
+        android:layout_below="@+id/edit_text_4"
+        android:layout_marginTop="10dp"
+        android:text="Alamat"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:id="@+id/edit_text_5"
+        android:drawableLeft="@drawable/ic_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_view_5"
+        android:layout_below="@+id/text_view_5"
+        android:maxLength="100"
+        android:inputType="text" />
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/simpan_data_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="Simpan Data"
+        android:background="@drawable/bg_button"
+        android:drawableLeft="@drawable/ic_tambah_data"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>
