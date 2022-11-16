@@ -54,7 +54,7 @@ public class DataPerawatActivity extends AppCompatActivity {
         }
 
         listView = findViewById(R.id.list_view_1);
-        listView.setAdapter(new ArrayAdapter(this, android.R.layout.simple_list_item_1, daftar));
+        listView.setAdapter(new ArrayAdapter(DataPerawatActivity.this, android.R.layout.simple_list_item_1, daftar));
         listView.setSelected(true);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
