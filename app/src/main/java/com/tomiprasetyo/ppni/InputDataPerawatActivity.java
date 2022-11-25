@@ -17,9 +17,9 @@ public class InputDataPerawatActivity extends AppCompatActivity {
     protected Cursor cursor;
     DBHelper dbHelper;
     Button simpanDatabutton;
-    EditText editText1, editText2, editText3, editText4, editText5;
+    EditText editText1, editText2, editText3, editText4, editText5, editText6;
     String edit;
-    TextView textView1, textView2, textView3, textView4, textView5;
+    TextView textView1, textView2, textView3, textView4, textView5, textView6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,12 +32,14 @@ public class InputDataPerawatActivity extends AppCompatActivity {
         editText3 = findViewById(R.id.edit_text_3);
         editText4 = findViewById(R.id.edit_text_4);
         editText5 = findViewById(R.id.edit_text_5);
+        editText6 = findViewById(R.id.edit_text_6a);
 
         textView1 = findViewById(R.id.text_view_1);
         textView2 = findViewById(R.id.text_view_2);
         textView3 = findViewById(R.id.text_view_3);
         textView4 = findViewById(R.id.text_view_4);
         textView5 = findViewById(R.id.text_view_5);
+        textView6 = findViewById(R.id.text_view_6a);
 
         simpanDatabutton = findViewById(R.id.simpan_data_button);
         simpanDatabutton.setOnClickListener(new View.OnClickListener() {
@@ -50,16 +52,18 @@ public class InputDataPerawatActivity extends AppCompatActivity {
                 edit = editText3.getText().toString();
                 edit = editText4.getText().toString();
                 edit = editText5.getText().toString();
+                edit = editText6.getText().toString();
 
                 if (edit.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "Kolom tidak boleh kosong", Toast.LENGTH_SHORT).show();
                 } else {
-                    sqLiteDatabase.execSQL("INSERT INTO perawat(nip, nama, tanggal_lahir, jenis_kelamin, alamat) VALUES('" +
+                    sqLiteDatabase.execSQL("INSERT INTO perawat(nip, nama, tanggal_lahir, jenis_kelamin, alamat, unit_kerja) VALUES('" +
                             editText1.getText().toString() + "','" +
                             editText2.getText().toString() + "','" +
                             editText3.getText().toString() + "','" +
                             editText4.getText().toString() + "','" +
-                            editText5.getText().toString() + "')");
+                            editText5.getText().toString() + "','" +
+                            editText6.getText().toString() + "')");
                     Toast.makeText(getApplicationContext(), "Sukses simpan data", Toast.LENGTH_LONG).show();
                     finish();
                 }

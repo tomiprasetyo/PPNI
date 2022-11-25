@@ -45,7 +45,7 @@
         android:id="@+id/edit_text_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/ic_person"
+        android:drawableLeft="@drawable/ic_person_pin"
         android:layout_alignLeft="@+id/text_view_2"
         android:layout_below="@id/text_view_2"
         android:inputType="text"
@@ -117,6 +117,28 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/text_view_5"
         android:layout_below="@+id/text_view_5"
+        android:maxLength="100"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/text_view_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_text_5"
+        android:layout_below="@+id/edit_text_5"
+        android:layout_marginTop="10dp"
+        android:text="Unit Kerja"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:id="@+id/edit_text_6"
+        android:drawableLeft="@drawable/ic_gedung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_view_6"
+        android:layout_below="@+id/text_view_6"
         android:maxLength="100"
         android:inputType="text" />
 

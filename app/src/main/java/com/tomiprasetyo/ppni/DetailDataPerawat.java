@@ -11,7 +11,7 @@ public class DetailDataPerawat extends AppCompatActivity {
 
     protected Cursor cursor;
     DBHelper dbHelper;
-    TextView textView2, textView4, textView6, textView8, textView10;
+    TextView textView2, textView4, textView6, textView8, textView10, textView12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class DetailDataPerawat extends AppCompatActivity {
         textView6 = findViewById(R.id.text_view_6);
         textView8 = findViewById(R.id.text_view_8);
         textView10 = findViewById(R.id.text_view_10);
+        textView12 = findViewById(R.id.text_view_12);
 
         SQLiteDatabase sqLiteDatabase = dbHelper.getReadableDatabase();
         cursor = sqLiteDatabase.rawQuery("SELECT * FROM perawat WHERE nama = '" +
@@ -36,6 +37,7 @@ public class DetailDataPerawat extends AppCompatActivity {
             textView6.setText(cursor.getString(2).toString());
             textView8.setText(cursor.getString(3).toString());
             textView10.setText(cursor.getString(4).toString());
+            textView12.setText(cursor.getString(5).toString());
         }
     }
 }

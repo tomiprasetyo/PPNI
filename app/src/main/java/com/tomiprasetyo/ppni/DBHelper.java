@@ -15,13 +15,13 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        String sql = "CREATE TABLE perawat(nip INTEGER PRIMARY KEY, nama TEXT NULL, tanggal_lahir TEXT NULL, jenis_kelamin TEXT NULL, alamat TEXT NULL);";
+        String sql = "CREATE TABLE perawat(nip INTEGER PRIMARY KEY, nama TEXT NULL, tanggal_lahir TEXT NULL, jenis_kelamin TEXT NULL, alamat TEXT NULL, unit_kerja TEXT NULL);";
 
         Log.d("Data", "onCreate: " + sql);
 
         sqLiteDatabase.execSQL(sql);
 
-        sql = "INSERT INTO perawat(nip, nama, tanggal_lahir, jenis_kelamin, alamat) VALUES('1234567', 'Abdul Azis', '1996-07-11', 'Laki-laki', 'Bandung');";
+        sql = "INSERT INTO perawat(nip, nama, tanggal_lahir, jenis_kelamin, alamat, unit_kerja) VALUES('1234567', 'Abdul Azis', '1996-07-11', 'Laki-laki', 'Bandung', 'Gedung A');";
 
         sqLiteDatabase.execSQL(sql);
     }

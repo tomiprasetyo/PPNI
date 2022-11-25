@@ -16,9 +16,9 @@ public class UpdateDataPerawatActivity extends AppCompatActivity {
     protected Cursor cursor;
     DBHelper dbHelper;
     Button updateDataButton;
-    EditText editText1, editText2, editText3, editText4, editText5;
+    EditText editText1, editText2, editText3, editText4, editText5, editText6;
     String edit;
-    TextView textView1, textView2, textView3, textView4, textView5;
+    TextView textView1, textView2, textView3, textView4, textView5, textView6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +31,14 @@ public class UpdateDataPerawatActivity extends AppCompatActivity {
         editText3 = findViewById(R.id.edit_text_3);
         editText4 = findViewById(R.id.edit_text_4);
         editText5 = findViewById(R.id.edit_text_5);
+        editText6 = findViewById(R.id.edit_text_6);
 
         textView1 = findViewById(R.id.text_view_1);
         textView2 = findViewById(R.id.text_view_2);
         textView3 = findViewById(R.id.text_view_3);
         textView4 = findViewById(R.id.text_view_4);
         textView5 = findViewById(R.id.text_view_5);
+        textView6 = findViewById(R.id.text_view_6);
 
         SQLiteDatabase sqLiteDatabase = dbHelper.getReadableDatabase();
 
@@ -50,6 +52,7 @@ public class UpdateDataPerawatActivity extends AppCompatActivity {
             editText3.setText(cursor.getString(2).toString());
             editText4.setText(cursor.getString(3).toString());
             editText5.setText(cursor.getString(4).toString());
+            editText6.setText(cursor.getString(5).toString());
         }
 
         updateDataButton = findViewById(R.id.update_data_button);
@@ -62,6 +65,7 @@ public class UpdateDataPerawatActivity extends AppCompatActivity {
                 edit = editText3.getText().toString();
                 edit = editText4.getText().toString();
                 edit = editText5.getText().toString();
+                edit = editText6.getText().toString();
 
                 if(edit.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "Kolom tidak boleh kosong", Toast.LENGTH_SHORT).show();
@@ -70,7 +74,8 @@ public class UpdateDataPerawatActivity extends AppCompatActivity {
                             editText2.getText().toString() + "', tanggal_lahir = '" +
                             editText3.getText().toString() + "', jenis_kelamin = '" +
                             editText4.getText().toString() + "', alamat = '" +
-                            editText5.getText().toString() + "' WHERE nip = '" +
+                            editText5.getText().toString() + "', unit_kerja = '" +
+                            editText6.getText().toString() + "' WHERE nip = '" +
                             editText1.getText().toString() + "'");
 
                     Toast.makeText(getApplicationContext(), "Berhasil edit data", Toast.LENGTH_LONG).show();
